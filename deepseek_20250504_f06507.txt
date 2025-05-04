@@ -1,0 +1,13 @@
+/nifty-option-predictor/
+│── README.md
+│── app.py                 # Main Streamlit app
+│── requirements.txt
+│── .gitignore
+│── /modules/
+│   │── data_loader.py     # Data fetching
+│   │── model_trainer.py   # LSTM training
+│   │── options_pricer.py  # Black-Scholes
+│── /assets/
+│   │── nifty_icon.png     # App icon
+│── /examples/
+│   │── sample_output.png  # Demo screenshot
